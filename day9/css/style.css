@@ -1,22 +1,24 @@
 body{
-    background-color:#D3D3D3 ;       
+    background-color:#D3D3D3 ; 
+    margin: 20px;  
+    
 }
 
-@media(min-width: 1000px){
+@media(min-width: 1400px){
 
 header{
     font-size: 30px;
-text-align: center;
-font-family: Impact, Haettenschweiler, sans-serif;
- text-shadow:  1px 2px rgb(241, 6, 46);
+    text-align: center;
+    font-family: Impact, Haettenschweiler, sans-serif;
+     text-shadow:  1px 2px rgb(241, 6, 46);
 }
 
 
 header p{
-font-style: italic;
-color: rgb(87, 25, 211);
-font-size: 20px;
-text-shadow: 3px 2px #86c4e3;
+    font-style: italic;
+    color: rgb(87, 25, 211);
+    font-size: 20px;
+    text-shadow: 3px 2px #86c4e3;
 }
 
 header h2{
@@ -121,13 +123,14 @@ button:hover{
 
 
 /* for small screens */
-@media (max-width: 999px) {
+@media (max-width: 1398px) {
 
     header{
-    font-size: 30px;
-    text-align: center;
+     width: 100%;
     font-family: Impact, Haettenschweiler, sans-serif;
-    text-shadow:  1px 2px rgb(241, 6, 46);
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
 }
 
 
@@ -141,33 +144,40 @@ header p{
 header h2{
     color: cadetblue;
     text-shadow: 1px 2px 2px black;
+    font-size: 38px;
+
 }
 
 section{
     background-color: white;
     width: auto;
-    height: 520px;
-    margin: 20px;
+    height: 500px;
+     
+
 }
+
 
 .nav{
     display: flex;
+    width: 100%;
+
 }
 
-img{
-    width: 80px;
+ .nav img{
+    width: 60px;
     padding-bottom: 40px;    
 }
 
 ul{
+    width: auto;
     list-style-type: none;
     display: inline-flex;
-    margin-top: 30px;
+    margin: 25px 20px 10px -30px;
     
 }
 
 ul li{
-    font-size: 15px;
+    font-size: 14px;
     padding-left: 10px;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(159, 18, 187);
@@ -179,16 +189,16 @@ ul li:hover{
 
 
  .info{
-    width: 500px;
-    height: 270px;
-    margin-left: 10px;
-    margin-right: 50px;
+    width: 100%;
+    height: auto;
+    margin-left: 20px;
+    
  }  
 
  h4{
     margin-top: -40px;
     margin-bottom: 0px;
-    font-size: 30px;
+    font-size: 15px;
     font-family: sans-serif;
     color: cadetblue;
  }
@@ -196,11 +206,13 @@ ul li:hover{
  h5{
     margin-top: 0px;
     margin-bottom: 2px;
-    font-size: 30px;
+    font-size: 25px;
  }
 
 p{
     color:rgb(57, 58, 62);
+    font-size: 15px;
+
 }
 
 
@@ -208,7 +220,7 @@ button{
     display: inline-flex;
     font-size: 10px;
     padding: 10px;
-    border-radius: 20px;
+    border-radius: 10px;
     border-color:rgb(125, 120, 141) ;
 }
 
@@ -216,20 +228,19 @@ button:hover{
     background-color: green;
 }
 
-.click{
-    background-color: cadetblue;
-}
 
 .img2 {
-    padding: 4px 15px;   
+   
+    padding-right: 10px;
+    
 }
 
 .img2 img{
-    width: 250px;
+    width: 160px;
+    height:auto;
     border-radius: 10px;
-    margin-left: -40px;
-    margin-bottom: 20px;
-    margin-top: -40px;
+    object-fit: cover;  
+    
 }
 
 .section2{
