@@ -1,7 +1,7 @@
 
 
  /* for desktop */
- @media(min-width:998px){
+ @media(min-width:1000px){
  
  header{
     
@@ -10,8 +10,8 @@
  
  
  header img{
-    width: 200px;
-    max-height:150px;
+    width: 250px;
+    max-height:200px;
     border-radius: 50%;
     padding: 3px 2px;
     align-items: center;
@@ -22,7 +22,7 @@ ul{
     
     list-style-type: none;
     display: flex;
-    font-size: 25px;
+    font-size: 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-left: 240px;
 }
@@ -48,30 +48,32 @@ ul li a:hover{
     width: 600px;
     height: 300px;
     margin-left: 70px;
-    margin-right: 50px;
+    margin-right: 300px;
     
 }
-h2{
+ .herosec1 h2{
    font-family: arial;
-   font-size: 40px;
+   font-size: 50px;
 }
 
-h5{
+ .herosec1 h5{
     margin-top: 0px;
     margin-bottom: 2px;
-    font-size: 50px;
+    font-size: 60px;
     color: rgb(81, 232, 68);
  }
 
-p{
+ .herosec1 p{
     color:rgb(57, 58, 62);
+    font-size: 25px;
+
 }
 
 
-button{
-    width: 150px;
+ .herosec1 button{
+    width: 170px;
     font-size: 20px;
-    padding: 7PX;
+    padding: 15PX;
     margin-top: 20px;
     border-radius: 20PX;
     border-color:rgb(125, 120, 141) ;
@@ -89,10 +91,8 @@ button:hover{
 }
 .img1 img{
     width: 600px;
-    height: 600px;
-    margin-left: 70px;
-    margin-bottom: -30px;
-    margin-top: -40px;
+    height: 700px;
+    margin: -40px 0px -30px 70px;
 }
 
 .hero{
@@ -113,17 +113,18 @@ button:hover{
 }
 
 .product img{
-    width: 300px;
-    height: 320px;
+    width: 350px;
+    height: 340px;
     border: 1px solid grey;
     border-radius: 10px;
-    margin-left: 20px;
+    margin-left: 80px;
      box-shadow: 5px 5px 2px rgb(116, 103, 219);
 }
 
 .product-feature{
     display: flex;
-    padding-left: 40px;
+    gap: 100px;
+    padding-left: 100px;
 
 }
 
@@ -134,21 +135,23 @@ button:hover{
 
 }
 .feature h5{
-    font-size: 15px;
+    font-size: 20px;
     color: blue;
-    margin: 10px;
+    margin: 20px;
 }
 .feature p{
  color: cadetblue;
+ font-size: 15px;
+ margin-left: 20px;
 }
 
 .review{
     display: flex;
-    width: 300px;
+    width: 400px;
     border: 1px solid black;
     background-color: aquamarine;
     border-radius: 20px;
-    margin-left: 50px;
+    margin:  50px 40px;
     box-shadow: 5px 5px 2px grey;
 }
 
@@ -162,7 +165,7 @@ button:hover{
 
  h6{
 margin-left: 10px;
- font-size:15px ;
+ font-size:20px ;
  color: blue;
  margin-top: 2px;
  }   
@@ -183,6 +186,7 @@ margin-left: 10px;
 
 .para p{
     margin:10px;
+    font-size: 20px;
 }
 
 .review-section{
@@ -192,8 +196,8 @@ margin-left: 10px;
 
 footer{
     background-color: rgb(12, 14, 24);
-    width: 99%;
-    height: 350px;
+    width:auto;
+    height: auto;
     margin: 15px;
     color: rgb(255, 255, 255);
 }
@@ -210,8 +214,9 @@ footer{
 }
 
 .box p{
-    width: 300px;
+    width: 350px;
     color: rgb(247, 249, 247);
+    font-size: 22px;
 }
 
 .box p:hover{
@@ -219,7 +224,7 @@ footer{
 }
 
 h4{
-    font-size: 22px;
+    font-size: 25px;
     margin-top: 10px;
     color: rgb(27, 231, 12);
     text-shadow: 2px 1px 1px white;
@@ -241,27 +246,28 @@ h4{
 }
 .fa-brands{
     padding: 10px;
-    size: 20px;
+    size: 25px;
 }
 
 input{
-    width: 250px;
+    width: 350px;
     background-color: rgb(250, 237, 237);
     border: none;
     border-radius: 10px;
+    padding: 5px;
 }
 
 #textarea{
-    height: 30px;
+    height: 50px;
 }
 
 #submit{
-    width: 100px;
+    width: 120px;
     border-radius: 20px;
     color: rgb(26, 24, 24);
     background-color: rgb(139, 209, 113);
-    margin-top: 4px;
-    padding: 3px;
+    margin-top: 10px;
+    padding: 10px;
 }
 
 #submit:hover{
@@ -522,33 +528,29 @@ input{
 
 @media (max-width:600px) {
     header{
-    
     margin-top: 10px;
  }
  
  
  header img{
-    width: 80px;
-    max-height:100px;
-    border-radius: 50%;
-    /* padding: 3px 2px; */
-    align-items: center;
+    width: auto;
+    max-height:50px;
 
 }
 ul{
     
     list-style-type: none;
     display: flex;
-    font-size: 12px;
+    font-size: 10px;
+    margin-left: -20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
 
 ul li{ 
-    margin: 2px;
     color: lightseagreen; 
     justify-content: center; 
-    padding: 20px;
+    padding: 10px;
 }
 
 ul li a:hover{
@@ -562,9 +564,9 @@ ul li a:hover{
 } 
 
 .herosec1{
-    width: 500px;
-    height: 200px;
-    margin-left: 20px;
+    width: auto;
+    height: auto;
+    margin-left: 5px;
     
     
 }
@@ -574,21 +576,21 @@ h2{
 }
 
 h5{
-    margin-top: 0px;
-    margin-bottom: 2px;
-    font-size: 20px;
+    margin: 2px;
+    font-size: 10px;
     color: rgb(81, 232, 68);
  }
 
 p{
     color:rgb(57, 58, 62);
+    font-size: 10px;
 }
 
 
 button{
-    width: 150px;
-    font-size: 20px;
-    padding: 10px;
+    width: auto;
+    font-size: 8px;
+    padding: 5px;
     border-radius: 20PX;
     border-color:rgb(125, 120, 141) ;
     background-color: rgb(8, 164, 29);
@@ -600,61 +602,58 @@ button:hover{
 }
 
 .img1 {
-    padding: 4px 2px;
+    margin: 0;
     
 }
 .img1 img{
-    width: 350px;
-    height: 450px;
-    margin-left: 40px;
-    margin-bottom: 10px;
-    margin-top: -40px;
+    width: 220px;
+    height: auto;
+    
+
+    
 }
 
-.hero{
-    
+.hero{  
+    width: auto;
     display: flex;
 }
   
 
 .product{
    display: flex;
+   padding-top: 20px;
 }
 
 .product img{
-    width: 120px;
-    height: 150px;
+    width: 80px;
+    height: auto;
     object-fit: cover;
-    padding-left: 18px;
 }
 
 .product-feature{
     display: flex;
+    gap: 12px;
+    margin-left: 8px;
 
 }
 
 .feature{
-      width: 250px;
-      padding-left: 20px;
-      
-
+      width: auto; 
+      height: fit-content;    
 }
 .feature h5{
-    font-size: 10px;
+    font-size: 6px;
     color: blue;
     margin-top: 8px;
-    margin-left: 5px;
 }
 .feature p{
  color: cadetblue;
- font-size: 8px;
- margin-left: 2px;
+ font-size: 5px;
 
 }
 
 .review{
-    width: 470px;
-    margin: 10px;
+    width: auto;
     border: 1px solid black;
     background-color: aquamarine;
     border-radius: 20px;   
@@ -665,15 +664,15 @@ button:hover{
 .testemonials{    
     color: aliceblue;
     display: flex;
-    padding-left: 15px;
+    padding-left: 10px;
 }
 
 
  h6{
-margin-left: 10px;
- font-size:15px ;
- color: blue;
- margin-top: 6px;
+    margin-left: 10px;
+    font-size:10px ;
+     color: blue;
+     margin-top: 6px;
  }   
 
 
@@ -686,32 +685,36 @@ margin-left: 10px;
     object-fit: cover;    
 }
 
-.para{
+.para p{
     margin-left: 10px;
-    margin-top: -25px;
+    margin-top: 5px;
 }
 
 .review-section{
-    padding: 25px;
+    padding: 2px;
 }
 
 footer{
     background-color: black;
-    width: 100%;
-    
+    width: auto;
+    height: auto;
     color: rgb(255, 255, 255);
 }
 
 
 
 .box{
-    /* border: 1px solid white; */
-    padding: 10px 20px;
+    width: auto;
+    height: auto;
+     border: 1px solid white; 
+     padding-left: 10px;
+
 }
 
 .box p{
     
     color: rgb(156, 214, 214);
+    font-size: 10px;
 }
 .media{
 
@@ -733,7 +736,7 @@ footer{
 }
 
 input{
-    width: 250px;
+    width: 150px;
     background-color: rgb(250, 237, 237);
     border: none;
     border-radius: 10px;
@@ -744,7 +747,7 @@ input{
 }
 
 #submit{
-    width: 100px;
+    width: 80px;
     border-radius: 20px;
     color: rgb(26, 24, 24);
     background-color: rgb(139, 209, 113);
