@@ -1,7 +1,7 @@
 
 
  /* for desktop */
- @media(min-width:1000px){
+ @media(min-width:1200px){
  
  header{
     
@@ -534,7 +534,7 @@ input{
  
  header img{
     width: auto;
-    max-height:50px;
+    max-height:60px;
 
 }
 ul{
@@ -606,7 +606,7 @@ button:hover{
     
 }
 .img1 img{
-    width: 220px;
+    width: 100%;
     height: auto;
     
 
@@ -625,8 +625,8 @@ button:hover{
 }
 
 .product img{
-    width: 80px;
-    height: auto;
+    width: auto;
+    height: 80px;
     object-fit: cover;
 }
 
