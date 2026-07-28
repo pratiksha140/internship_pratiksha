@@ -5,7 +5,9 @@ body {
     background-color: #f4f4f9;
 }
 
-
+@media(min-width:1000px) {
+    
+}
 header {
     text-align: center;
     margin-bottom: 10px;
@@ -52,7 +54,7 @@ footer {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 998px) {
     header h1 {
         font-size: 2em;
     }
